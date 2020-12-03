@@ -18,6 +18,13 @@ $(function(){
     });
  });
 
+
+$(function(){
+    $('#discord').click(function(){
+       $('#discord-name').toggle() // AFFICHE ET CACHE A CHAQUE CLIQUE SUR LE BOUTTON MON DISCORD
+    });
+ });
+
 document.querySelector(".card-flip").classList.toggle("flip");
 
 /* 
